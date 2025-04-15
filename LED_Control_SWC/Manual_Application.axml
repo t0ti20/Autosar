@@ -192,6 +192,7 @@
 											<ACCESSED-VARIABLE>
 												<AUTOSAR-VARIABLE-IREF>
 													<PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/SWCs/Door_Lock_SWC/Get_Sensor_State_Receiver</PORT-PROTOTYPE-REF>
+													<TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/Sender_Receiver_Interface_Door_Sensor/Current_State</TARGET-DATA-PROTOTYPE-REF>
 												</AUTOSAR-VARIABLE-IREF>
 												<LOCAL-VARIABLE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/Sender_Receiver_Interface_Door_Sensor/Current_State</LOCAL-VARIABLE-REF>
 											</ACCESSED-VARIABLE>
@@ -234,7 +235,7 @@
 							<SHORT-NAME>LED_Control_Assembly_Connector</SHORT-NAME>
 							<PROVIDER-IREF>
 								<CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/Composition/Composite_Application_SWC/IO_Abstraction_SWC</CONTEXT-COMPONENT-REF>
-								<TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/SWCs/IO_Abstraction_SWC/Get_Sensor_State_Sender</TARGET-P-PORT-REF>
+								<TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/SWCs/IO_Abstraction_SWC/Control_Led_State_Server</TARGET-P-PORT-REF>
 							</PROVIDER-IREF>
 							<REQUESTER-IREF>
 								<CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/Composition/Composite_Application_SWC/Door_Lock_SWC</CONTEXT-COMPONENT-REF>
@@ -246,7 +247,7 @@
 							<SHORT-NAME>Door_State_Assembly_Connector</SHORT-NAME>
 							<PROVIDER-IREF>
 								<CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/Composition/Composite_Application_SWC/IO_Abstraction_SWC</CONTEXT-COMPONENT-REF>
-								<TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/SWCs/IO_Abstraction_SWC/Control_Led_State_Server</TARGET-P-PORT-REF>
+								<TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/SWCs/IO_Abstraction_SWC/Get_Sensor_State_Sender</TARGET-P-PORT-REF>
 							</PROVIDER-IREF>
 							<REQUESTER-IREF>
 								<CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/Composition/Composite_Application_SWC/Door_Lock_SWC</CONTEXT-COMPONENT-REF>
