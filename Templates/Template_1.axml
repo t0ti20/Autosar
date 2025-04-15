@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="C:\\Users\\t0ti2\\Documents\\AUTOSAR\\AUTOSAR_00046.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0">
+	<AR-PACKAGES>
+		<AR-PACKAGE>
+			<SHORT-NAME>AUTOSAR_Platform</SHORT-NAME>
+			<AR-PACKAGES>
+				<AR-PACKAGE>
+					<SHORT-NAME>Hello</SHORT-NAME>
+					<!-- This is cooment-->
+				</AR-PACKAGE>
+			</AR-PACKAGES>
+		</AR-PACKAGE>
+	</AR-PACKAGES>
+</AUTOSAR>
