@@ -1,0 +1,15 @@
+CPU ee {
+	OS ee {
+		KERNEL_TYPE = OSEK {
+			RQ = LL;
+		};
+		BOARD_DATA = NO_BOARD;
+		USEDYNAMICAPI = FALSE;
+		USEEXTENSIONAPI = FALSE;
+		STACKMONITORING = FALSE;
+	};
+	TASK Test_Application {
+		AUTOSTART = FALSE;
+		STACK = SHARED;
+	};
+};

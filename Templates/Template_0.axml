@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AUTOSAR xmlns="http://autosar.org/schema/r4.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://autosar.org/schema/r4.0 C:\\Users\\t0ti2\\Documents\\AUTOSAR\\AUTOSAR_00046.xsd">
+         xsi:schemaLocation="http://autosar.org/schema/r4.0 C:\\Users\\t0ti2\\Documents\\AUTOSAR\\Documents\\AUTOSAR_00046.xsd">
 	<AR-PACKAGES>
 		<AR-PACKAGE>
 			<SHORT-NAME>AUTOSAR_Platform</SHORT-NAME>
